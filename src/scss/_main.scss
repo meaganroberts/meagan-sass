@@ -7,9 +7,9 @@
     > * {
       padding-left: 30px
     }
-    
+
     li {
-      font-size: 0.85rem;
+      font-size: 1rem;
     }
     
     h1 {
@@ -18,6 +18,9 @@
       padding-top: 40px;
     }
     
+    ul, li {
+        list-style-position: inside;
+    }
     
     p {
       width: 55%;

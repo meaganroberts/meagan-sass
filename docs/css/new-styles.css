@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   font-family: Arial;
-  color: #40af81; }
+  color: white; }
 
 p, a {
   font-size: 1rem; }
@@ -33,6 +33,8 @@ a:hover {
   .nav h4 {
     -webkit-margin-before: 0;
     margin-left: 50px; }
+  .nav ul, .nav li, .nav a {
+    color: #77d3ad; }
 
 .main {
   width: 85%;
@@ -42,11 +44,13 @@ a:hover {
   .main > * {
     padding-left: 30px; }
   .main li {
-    font-size: 0.85rem; }
+    font-size: 1rem; }
   .main h1 {
     font-size: 62px;
     -webkit-margin-before: 0;
     padding-top: 40px; }
+  .main ul, .main li {
+    list-style-position: inside; }
   .main p {
     width: 55%;
     min-width: 550px; }
